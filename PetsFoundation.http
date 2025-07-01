@@ -1,6 +1,0 @@
-@PetsFoundation_HostAddress = http://localhost:5245
-
-GET {{PetsFoundation_HostAddress}}/
-Accept: application/json
-
-###
