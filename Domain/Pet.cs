@@ -9,7 +9,7 @@ public partial class Pet
 
     public int IdentificationNumber { get; set; }
 
-    public string FirtName { get; set; } = null!;
+    public string FirstName { get; set; } = null!;
 
     public int PetType { get; set; }
 
@@ -23,9 +23,24 @@ public partial class Pet
 
     public Guid? KOwner { get; set; }
 
-    public virtual ICollection<AdoptionRequest> AdoptionRequests { get; set; } = new List<AdoptionRequest>();
+    //public virtual ICollection<AdoptionRequest> AdoptionRequests { get; set; } = new List<AdoptionRequest>();
 
     public virtual Interested? KGodFatherNavigation { get; set; }
 
     public virtual Interested? KOwnerNavigation { get; set; }
+
+    public Pet()
+    {
+
+    }
+
+    public Pet(string firstName, int petType, string race, int age, DateTime entryDate)
+    {
+        this.KPet = Guid.NewGuid();
+        this.FirstName = firstName;
+        this.PetType = petType;
+        this.Race = race;
+        this.Age = age;
+        this.EntryDate = entryDate;
+    }
 }

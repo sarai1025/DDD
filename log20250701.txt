@@ -1,0 +1,303 @@
+2025-07-01 21:45:26.683 -05:00 [INF] Now listening on: http://localhost:5245
+2025-07-01 21:45:26.773 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-07-01 21:45:26.775 -05:00 [INF] Hosting environment: Development
+2025-07-01 21:45:26.776 -05:00 [INF] Content root path: E:\Repos\DDD - .NET 9 - EF CORE SQL\PetsFoundation
+2025-07-01 21:45:55.989 -05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5245/Pet - application/json 132
+2025-07-01 21:45:56.042 -05:00 [WRN] Failed to determine the https port for redirect.
+2025-07-01 21:45:56.049 -05:00 [INF] Executing endpoint 'PetsFoundation.Infraestructure.Api.Controllers.PetController.CreatePet (PetsFoundation)'
+2025-07-01 21:45:56.090 -05:00 [INF] Route matched with {action = "CreatePet", controller = "Pet"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult CreatePet(PetsFoundation.Domain.Request.PetCreation) on controller PetsFoundation.Infraestructure.Api.Controllers.PetController (PetsFoundation).
+2025-07-01 21:45:56.303 -05:00 [INF] Start logic to create the pet simon...
+2025-07-01 21:49:59.727 -05:00 [INF] Now listening on: http://localhost:5245
+2025-07-01 21:49:59.815 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-07-01 21:49:59.816 -05:00 [INF] Hosting environment: Development
+2025-07-01 21:49:59.817 -05:00 [INF] Content root path: E:\Repos\DDD - .NET 9 - EF CORE SQL\PetsFoundation
+2025-07-01 21:50:37.216 -05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5245/Pet - application/json 132
+2025-07-01 21:50:37.271 -05:00 [WRN] Failed to determine the https port for redirect.
+2025-07-01 21:50:37.277 -05:00 [INF] Executing endpoint 'PetsFoundation.Infraestructure.Api.Controllers.PetController.CreatePet (PetsFoundation)'
+2025-07-01 21:50:37.312 -05:00 [INF] Route matched with {action = "CreatePet", controller = "Pet"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult CreatePet(PetsFoundation.Domain.Request.PetCreation) on controller PetsFoundation.Infraestructure.Api.Controllers.PetController (PetsFoundation).
+2025-07-01 21:50:37.518 -05:00 [INF] Start logic to create the pet simon...
+2025-07-01 21:50:40.182 -05:00 [ERR] Microsoft.AspNetCore.Mvc.ObjectResult
+2025-07-01 21:50:40.190 -05:00 [INF] Executing ObjectResult, writing value of type '<>f__AnonymousType0`2[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-07-01 21:50:40.204 -05:00 [INF] Executed action PetsFoundation.Infraestructure.Api.Controllers.PetController.CreatePet (PetsFoundation) in 2884.9014ms
+2025-07-01 21:50:40.209 -05:00 [INF] Executed endpoint 'PetsFoundation.Infraestructure.Api.Controllers.PetController.CreatePet (PetsFoundation)'
+2025-07-01 21:50:40.218 -05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5245/Pet - 400 null application/json; charset=utf-8 3007.1932ms
+2025-07-01 21:52:04.330 -05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5245/Pet - application/json 132
+2025-07-01 21:52:04.335 -05:00 [INF] Executing endpoint 'PetsFoundation.Infraestructure.Api.Controllers.PetController.CreatePet (PetsFoundation)'
+2025-07-01 21:52:04.337 -05:00 [INF] Route matched with {action = "CreatePet", controller = "Pet"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult CreatePet(PetsFoundation.Domain.Request.PetCreation) on controller PetsFoundation.Infraestructure.Api.Controllers.PetController (PetsFoundation).
+2025-07-01 21:52:04.348 -05:00 [INF] Start logic to create the pet simon...
+2025-07-01 21:54:31.182 -05:00 [INF] Now listening on: http://localhost:5245
+2025-07-01 21:54:31.264 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-07-01 21:54:31.266 -05:00 [INF] Hosting environment: Development
+2025-07-01 21:54:31.267 -05:00 [INF] Content root path: E:\Repos\DDD - .NET 9 - EF CORE SQL\PetsFoundation
+2025-07-01 21:57:12.727 -05:00 [INF] Now listening on: http://localhost:5245
+2025-07-01 21:57:12.899 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-07-01 21:57:12.901 -05:00 [INF] Hosting environment: Development
+2025-07-01 21:57:12.903 -05:00 [INF] Content root path: E:\Repos\DDD - .NET 9 - EF CORE SQL\PetsFoundation
+2025-07-01 21:57:31.602 -05:00 [INF] Now listening on: http://localhost:5245
+2025-07-01 21:57:31.685 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-07-01 21:57:31.687 -05:00 [INF] Hosting environment: Development
+2025-07-01 21:57:31.688 -05:00 [INF] Content root path: E:\Repos\DDD - .NET 9 - EF CORE SQL\PetsFoundation
+2025-07-01 21:57:42.902 -05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5245/Pet - application/json 132
+2025-07-01 21:57:42.957 -05:00 [WRN] Failed to determine the https port for redirect.
+2025-07-01 21:57:42.963 -05:00 [INF] Executing endpoint 'PetsFoundation.Infraestructure.Api.Controllers.PetController.CreatePet (PetsFoundation)'
+2025-07-01 21:57:43.003 -05:00 [INF] Route matched with {action = "CreatePet", controller = "Pet"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult CreatePet(PetsFoundation.Domain.Request.PetCreation) on controller PetsFoundation.Infraestructure.Api.Controllers.PetController (PetsFoundation).
+2025-07-01 21:57:43.203 -05:00 [INF] Start logic to create the pet simon...
+2025-07-01 21:57:48.250 -05:00 [ERR] Error: Age can not be lower than 0, please enter a valid age for your pet. StackTrace:    at PetsFoundation.Application.Services.Pets.CreatePet.Execute(PetCreation petCreation) in E:\Repos\DDD - .NET 9 - EF CORE SQL\PetsFoundation\Application\Services\Pets\CreatePet.cs:line 30
+   at PetsFoundation.Infraestructure.Api.Controllers.PetController.CreatePet(PetCreation petCreation) in E:\Repos\DDD - .NET 9 - EF CORE SQL\PetsFoundation\Infraestructure\Api\Controllers\PetController.cs:line 34
+   at lambda_method2(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+2025-07-01 21:57:48.260 -05:00 [INF] Executing ObjectResult, writing value of type '<>f__AnonymousType0`2[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-07-01 21:57:48.274 -05:00 [INF] Executed action PetsFoundation.Infraestructure.Api.Controllers.PetController.CreatePet (PetsFoundation) in 5263.461ms
+2025-07-01 21:57:48.281 -05:00 [INF] Executed endpoint 'PetsFoundation.Infraestructure.Api.Controllers.PetController.CreatePet (PetsFoundation)'
+2025-07-01 21:57:48.288 -05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5245/Pet - 400 null application/json; charset=utf-8 5393.0157ms
+2025-07-01 21:58:25.119 -05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5245/Pet - application/json 131
+2025-07-01 21:58:25.126 -05:00 [INF] Executing endpoint 'PetsFoundation.Infraestructure.Api.Controllers.PetController.CreatePet (PetsFoundation)'
+2025-07-01 21:58:25.131 -05:00 [INF] Route matched with {action = "CreatePet", controller = "Pet"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult CreatePet(PetsFoundation.Domain.Request.PetCreation) on controller PetsFoundation.Infraestructure.Api.Controllers.PetController (PetsFoundation).
+2025-07-01 21:58:25.177 -05:00 [INF] Start logic to create the pet simon...
+2025-07-01 21:58:25.181 -05:00 [INF] Starting pet save transaction...
+2025-07-01 21:58:32.749 -05:00 [INF] Executed DbCommand (70ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (DbType = Int32), @p2='?' (DbType = DateTime), @p3='?' (Size = 50), @p4='?' (DbType = Guid), @p5='?' (DbType = Guid), @p6='?' (DbType = Int32), @p7='?' (Size = 50)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Pets] ([kPet], [Age], [EntryDate], [FirstName], [kGodFather], [kOwner], [PetType], [Race])
+OUTPUT INSERTED.[IdentificationNumber]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7);
+2025-07-01 21:58:32.794 -05:00 [INF] Ending pet save transaction.
+2025-07-01 21:58:32.796 -05:00 [INF] Pet simon successfully created.
+2025-07-01 21:58:32.798 -05:00 [INF] Executing OkObjectResult, writing value of type 'PetsFoundation.Domain.Pet'.
+2025-07-01 21:58:32.821 -05:00 [INF] Executed action PetsFoundation.Infraestructure.Api.Controllers.PetController.CreatePet (PetsFoundation) in 7685.1646ms
+2025-07-01 21:58:32.824 -05:00 [INF] Executed endpoint 'PetsFoundation.Infraestructure.Api.Controllers.PetController.CreatePet (PetsFoundation)'
+2025-07-01 21:58:32.832 -05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5245/Pet - 200 null application/json; charset=utf-8 7713.32ms
+2025-07-01 22:00:50.162 -05:00 [INF] Now listening on: http://localhost:5245
+2025-07-01 22:00:50.247 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-07-01 22:00:50.249 -05:00 [INF] Hosting environment: Development
+2025-07-01 22:00:50.250 -05:00 [INF] Content root path: E:\Repos\DDD - .NET 9 - EF CORE SQL\PetsFoundation
+2025-07-01 22:00:55.327 -05:00 [INF] Now listening on: http://localhost:5245
+2025-07-01 22:00:55.414 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-07-01 22:00:55.416 -05:00 [INF] Hosting environment: Development
+2025-07-01 22:00:55.417 -05:00 [INF] Content root path: E:\Repos\DDD - .NET 9 - EF CORE SQL\PetsFoundation
+2025-07-01 22:01:03.950 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5245/Pet - null null
+2025-07-01 22:01:04.008 -05:00 [WRN] Failed to determine the https port for redirect.
+2025-07-01 22:01:04.016 -05:00 [INF] Executing endpoint 'PetsFoundation.Infraestructure.Api.Controllers.PetController.GetAllPets (PetsFoundation)'
+2025-07-01 22:01:04.046 -05:00 [INF] Route matched with {action = "GetAllPets", controller = "Pet"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[PetsFoundation.Domain.Pet] GetAllPets() on controller PetsFoundation.Infraestructure.Api.Controllers.PetController (PetsFoundation).
+2025-07-01 22:01:13.922 -05:00 [ERR] Error: Format of the initialization string does not conform to specification starting at index 0. StackTrace:    at System.Data.Common.DbConnectionOptions.GetKeyValuePair(String connectionString, Int32 currentPosition, StringBuilder buffer, Boolean useOdbcRules, String& keyname, String& keyvalue)
+   at System.Data.Common.DbConnectionOptions.ParseInternal(Dictionary`2 parsetable, String connectionString, Boolean buildChain, Dictionary`2 synonyms, Boolean firstKey)
+   at System.Data.Common.DbConnectionOptions..ctor(String connectionString, Dictionary`2 synonyms, Boolean useOdbcRules)
+   at System.Data.Common.DbConnectionStringBuilder.set_ConnectionString(String value)
+   at Microsoft.Data.SqlClient.SqlConnectionStringBuilder..ctor(String connectionString)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerConnection.<>c.<get_IsMultipleActiveResultSetsEnabled>b__7_0(String cs)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerConnection.get_IsMultipleActiveResultSetsEnabled()
+   at Microsoft.EntityFrameworkCore.SqlServer.Query.Internal.SqlServerCompiledQueryCacheKeyGenerator.GenerateCacheKey(Expression query, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.ExecuteCore[TResult](Expression query, Boolean async, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.Execute[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.Execute[TResult](Expression expression)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1.GetEnumerator()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.System.Collections.Generic.IEnumerable<TEntity>.GetEnumerator()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at PetsFoundation.Infraestructure.Persistance.PetRepository.GetAll() in E:\Repos\DDD - .NET 9 - EF CORE SQL\PetsFoundation\Infraestructure\Persistance\PetRepository.cs:line 52
+   at PetsFoundation.Application.Services.Pets.GetPet.Execute() in E:\Repos\DDD - .NET 9 - EF CORE SQL\PetsFoundation\Application\Services\Pets\GetPet.cs:line 22
+   at PetsFoundation.Infraestructure.Api.Controllers.PetController.GetAllPets() in E:\Repos\DDD - .NET 9 - EF CORE SQL\PetsFoundation\Infraestructure\Api\Controllers\PetController.cs:line 53
+   at lambda_method2(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+2025-07-01 22:01:13.936 -05:00 [INF] Executing ObjectResult, writing value of type '<>f__AnonymousType0`2[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-07-01 22:01:13.960 -05:00 [INF] Executed action PetsFoundation.Infraestructure.Api.Controllers.PetController.GetAllPets (PetsFoundation) in 9906.4439ms
+2025-07-01 22:01:13.966 -05:00 [INF] Executed endpoint 'PetsFoundation.Infraestructure.Api.Controllers.PetController.GetAllPets (PetsFoundation)'
+2025-07-01 22:01:13.973 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5245/Pet - 500 null application/json; charset=utf-8 10031.7295ms
+2025-07-01 22:01:51.472 -05:00 [INF] Now listening on: http://localhost:5245
+2025-07-01 22:01:51.562 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-07-01 22:01:51.564 -05:00 [INF] Hosting environment: Development
+2025-07-01 22:01:51.566 -05:00 [INF] Content root path: E:\Repos\DDD - .NET 9 - EF CORE SQL\PetsFoundation
+2025-07-01 22:02:03.918 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5245/Pet - null null
+2025-07-01 22:02:03.979 -05:00 [WRN] Failed to determine the https port for redirect.
+2025-07-01 22:02:03.985 -05:00 [INF] Executing endpoint 'PetsFoundation.Infraestructure.Api.Controllers.PetController.GetAllPets (PetsFoundation)'
+2025-07-01 22:02:04.016 -05:00 [INF] Route matched with {action = "GetAllPets", controller = "Pet"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[PetsFoundation.Domain.Pet] GetAllPets() on controller PetsFoundation.Infraestructure.Api.Controllers.PetController (PetsFoundation).
+2025-07-01 22:02:05.621 -05:00 [INF] Executed DbCommand (21ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[kPet], [p].[Age], [p].[EntryDate], [p].[FirstName], [p].[IdentificationNumber], [p].[kGodFather], [p].[kOwner], [p].[PetType], [p].[Race]
+FROM [Pets] AS [p]
+2025-07-01 22:02:05.728 -05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[PetsFoundation.Domain.Pet, PetsFoundation, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-07-01 22:02:05.774 -05:00 [INF] Executed action PetsFoundation.Infraestructure.Api.Controllers.PetController.GetAllPets (PetsFoundation) in 1750.8431ms
+2025-07-01 22:02:05.780 -05:00 [INF] Executed endpoint 'PetsFoundation.Infraestructure.Api.Controllers.PetController.GetAllPets (PetsFoundation)'
+2025-07-01 22:02:05.797 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5245/Pet - 200 null application/json; charset=utf-8 1884.9527ms
+2025-07-01 22:02:42.683 -05:00 [INF] Now listening on: http://localhost:5245
+2025-07-01 22:02:42.782 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-07-01 22:02:42.784 -05:00 [INF] Hosting environment: Development
+2025-07-01 22:02:42.785 -05:00 [INF] Content root path: E:\Repos\DDD - .NET 9 - EF CORE SQL\PetsFoundation
+2025-07-01 22:02:53.008 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5245/Pet - null null
+2025-07-01 22:02:53.060 -05:00 [WRN] Failed to determine the https port for redirect.
+2025-07-01 22:02:53.066 -05:00 [INF] Executing endpoint 'PetsFoundation.Infraestructure.Api.Controllers.PetController.GetAllPets (PetsFoundation)'
+2025-07-01 22:02:53.100 -05:00 [INF] Route matched with {action = "GetAllPets", controller = "Pet"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[PetsFoundation.Domain.Pet] GetAllPets() on controller PetsFoundation.Infraestructure.Api.Controllers.PetController (PetsFoundation).
+2025-07-01 22:02:54.746 -05:00 [INF] Executed DbCommand (19ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[kPet], [p].[Age], [p].[EntryDate], [p].[FirstName], [p].[IdentificationNumber], [p].[kGodFather], [p].[kOwner], [p].[PetType], [p].[Race]
+FROM [Pets] AS [p]
+2025-07-01 22:02:54.848 -05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[PetsFoundation.Domain.Pet, PetsFoundation, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-07-01 22:02:54.888 -05:00 [INF] Executed action PetsFoundation.Infraestructure.Api.Controllers.PetController.GetAllPets (PetsFoundation) in 1780.5673ms
+2025-07-01 22:02:54.893 -05:00 [INF] Executed endpoint 'PetsFoundation.Infraestructure.Api.Controllers.PetController.GetAllPets (PetsFoundation)'
+2025-07-01 22:02:54.903 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5245/Pet - 200 null application/json; charset=utf-8 1899.7332ms
+2025-07-01 22:03:19.288 -05:00 [INF] Now listening on: http://localhost:5245
+2025-07-01 22:03:19.369 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-07-01 22:03:19.371 -05:00 [INF] Hosting environment: Development
+2025-07-01 22:03:19.372 -05:00 [INF] Content root path: E:\Repos\DDD - .NET 9 - EF CORE SQL\PetsFoundation
+2025-07-01 22:03:34.530 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5245/Pet - null null
+2025-07-01 22:03:34.588 -05:00 [WRN] Failed to determine the https port for redirect.
+2025-07-01 22:03:34.594 -05:00 [INF] Executing endpoint 'PetsFoundation.Infraestructure.Api.Controllers.PetController.GetAllPets (PetsFoundation)'
+2025-07-01 22:03:34.627 -05:00 [INF] Route matched with {action = "GetAllPets", controller = "Pet"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[PetsFoundation.Domain.Pet] GetAllPets() on controller PetsFoundation.Infraestructure.Api.Controllers.PetController (PetsFoundation).
+2025-07-01 22:03:36.007 -05:00 [ERR] An error occurred using the connection to database '' on server ''.
+2025-07-01 22:03:36.017 -05:00 [ERR] An exception occurred while iterating over the results of a query for context type 'PetsFoundation.Infraestructure.Persistance.PetsContext'.
+System.InvalidOperationException: The ConnectionString property has not been initialized.
+   at Microsoft.Data.SqlClient.SqlConnection.PermissionDemand()
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.PermissionDemand(DbConnection outerConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry, SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open(SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerConnection.OpenDbConnection(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternal(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.<>c.<MoveNext>b__21_0(DbContext _, Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+System.InvalidOperationException: The ConnectionString property has not been initialized.
+   at Microsoft.Data.SqlClient.SqlConnection.PermissionDemand()
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.PermissionDemand(DbConnection outerConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry, SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open(SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerConnection.OpenDbConnection(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternal(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.<>c.<MoveNext>b__21_0(DbContext _, Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+2025-07-01 22:03:40.269 -05:00 [ERR] Error: The ConnectionString property has not been initialized. StackTrace:    at Microsoft.Data.SqlClient.SqlConnection.PermissionDemand()
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.PermissionDemand(DbConnection outerConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry, SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open(SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerConnection.OpenDbConnection(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternal(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.<>c.<MoveNext>b__21_0(DbContext _, Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at PetsFoundation.Infraestructure.Persistance.PetRepository.GetAll() in E:\Repos\DDD - .NET 9 - EF CORE SQL\PetsFoundation\Infraestructure\Persistance\PetRepository.cs:line 52
+   at PetsFoundation.Application.Services.Pets.GetPet.Execute() in E:\Repos\DDD - .NET 9 - EF CORE SQL\PetsFoundation\Application\Services\Pets\GetPet.cs:line 22
+   at PetsFoundation.Infraestructure.Api.Controllers.PetController.GetAllPets() in E:\Repos\DDD - .NET 9 - EF CORE SQL\PetsFoundation\Infraestructure\Api\Controllers\PetController.cs:line 53
+   at lambda_method2(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+2025-07-01 22:03:40.284 -05:00 [INF] Executing ObjectResult, writing value of type '<>f__AnonymousType0`2[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-07-01 22:03:40.307 -05:00 [INF] Executed action PetsFoundation.Infraestructure.Api.Controllers.PetController.GetAllPets (PetsFoundation) in 5673.8384ms
+2025-07-01 22:03:40.314 -05:00 [INF] Executed endpoint 'PetsFoundation.Infraestructure.Api.Controllers.PetController.GetAllPets (PetsFoundation)'
+2025-07-01 22:03:40.330 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5245/Pet - 500 null application/json; charset=utf-8 5807.9359ms
+2025-07-01 22:03:57.252 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5245/Pet - null null
+2025-07-01 22:03:57.258 -05:00 [INF] Executing endpoint 'PetsFoundation.Infraestructure.Api.Controllers.PetController.GetAllPets (PetsFoundation)'
+2025-07-01 22:03:57.261 -05:00 [INF] Route matched with {action = "GetAllPets", controller = "Pet"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[PetsFoundation.Domain.Pet] GetAllPets() on controller PetsFoundation.Infraestructure.Api.Controllers.PetController (PetsFoundation).
+2025-07-01 22:03:57.312 -05:00 [ERR] An error occurred using the connection to database '' on server ''.
+2025-07-01 22:03:57.316 -05:00 [ERR] An exception occurred while iterating over the results of a query for context type 'PetsFoundation.Infraestructure.Persistance.PetsContext'.
+System.InvalidOperationException: The ConnectionString property has not been initialized.
+   at Microsoft.Data.SqlClient.SqlConnection.PermissionDemand()
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.PermissionDemand(DbConnection outerConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry, SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open(SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerConnection.OpenDbConnection(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternal(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.<>c.<MoveNext>b__21_0(DbContext _, Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+System.InvalidOperationException: The ConnectionString property has not been initialized.
+   at Microsoft.Data.SqlClient.SqlConnection.PermissionDemand()
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.PermissionDemand(DbConnection outerConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry, SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open(SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerConnection.OpenDbConnection(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternal(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.<>c.<MoveNext>b__21_0(DbContext _, Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+2025-07-01 22:04:06.328 -05:00 [ERR] Error: The ConnectionString property has not been initialized. StackTrace:    at Microsoft.Data.SqlClient.SqlConnection.PermissionDemand()
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.PermissionDemand(DbConnection outerConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry, SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open(SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerConnection.OpenDbConnection(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternal(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.<>c.<MoveNext>b__21_0(DbContext _, Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at PetsFoundation.Infraestructure.Persistance.PetRepository.GetAll() in E:\Repos\DDD - .NET 9 - EF CORE SQL\PetsFoundation\Infraestructure\Persistance\PetRepository.cs:line 52
+   at PetsFoundation.Application.Services.Pets.GetPet.Execute() in E:\Repos\DDD - .NET 9 - EF CORE SQL\PetsFoundation\Application\Services\Pets\GetPet.cs:line 22
+   at PetsFoundation.Infraestructure.Api.Controllers.PetController.GetAllPets() in E:\Repos\DDD - .NET 9 - EF CORE SQL\PetsFoundation\Infraestructure\Api\Controllers\PetController.cs:line 53
+   at lambda_method2(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+2025-07-01 22:04:06.341 -05:00 [INF] Executing ObjectResult, writing value of type '<>f__AnonymousType0`2[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-07-01 22:04:06.344 -05:00 [INF] Executed action PetsFoundation.Infraestructure.Api.Controllers.PetController.GetAllPets (PetsFoundation) in 9079.3278ms
+2025-07-01 22:04:06.346 -05:00 [INF] Executed endpoint 'PetsFoundation.Infraestructure.Api.Controllers.PetController.GetAllPets (PetsFoundation)'
+2025-07-01 22:04:06.349 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5245/Pet - 500 null application/json; charset=utf-8 9097.5339ms

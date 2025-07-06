@@ -22,9 +22,6 @@ public partial class PetsContext : DbContext
 
     public virtual DbSet<Pet> Pets { get; set; }
 
-    protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-        => optionsBuilder.UseSqlServer("Name=ConnectionStrings:DefaultConnection");
-
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         modelBuilder.Entity<AdoptionRequest>(entity =>
@@ -42,10 +39,10 @@ public partial class PetsContext : DbContext
                 .OnDelete(DeleteBehavior.ClientSetNull)
                 .HasConstraintName("FK__AdoptionR__kInte__4AB81AF0");
 
-            entity.HasOne(d => d.KPetNavigation).WithMany(p => p.AdoptionRequests)
-                .HasForeignKey(d => d.KPet)
-                .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK__AdoptionRe__kPet__49C3F6B7");
+            //entity.HasOne(d => d.KPetNavigation).WithMany(p => p.AdoptionRequests)
+            //    .HasForeignKey(d => d.KPet)
+            //    .OnDelete(DeleteBehavior.ClientSetNull)
+            //    .HasConstraintName("FK__AdoptionRe__kPet__49C3F6B7");
         });
 
         modelBuilder.Entity<Interested>(entity =>
@@ -64,6 +61,8 @@ public partial class PetsContext : DbContext
             entity.Property(e => e.StartDate).HasColumnType("datetime");
         });
 
+        modelBuilder.HasSequence<int>("IdentificationNumber");
+
         modelBuilder.Entity<Pet>(entity =>
         {
             entity.HasKey(e => e.KPet).HasName("PK__Pets__DFC35C4A79DFE013");
@@ -72,10 +71,11 @@ public partial class PetsContext : DbContext
                 .ValueGeneratedNever()
                 .HasColumnName("kPet");
             entity.Property(e => e.EntryDate).HasColumnType("datetime");
-            entity.Property(e => e.FirtName).HasMaxLength(50);
+            entity.Property(e => e.FirstName).HasMaxLength(50);
             entity.Property(e => e.KGodFather).HasColumnName("kGodFather");
             entity.Property(e => e.KOwner).HasColumnName("kOwner");
-            entity.Property(e => e.Race).HasMaxLength(1);
+            entity.Property(e => e.Race).HasMaxLength(50);
+            entity.Property(e => e.IdentificationNumber).HasDefaultValueSql("NEXT VALUE FOR IdentificationNumber");
 
             entity.HasOne(d => d.KGodFatherNavigation).WithMany(p => p.PetKGodFatherNavigations)
                 .HasForeignKey(d => d.KGodFather)
