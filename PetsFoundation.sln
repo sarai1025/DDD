@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PetsFoundation", "PetsFound
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PetsFoundationTest", "..\PetsFoundationTest\PetsFoundationTest.csproj", "{5584385F-5012-41E2-96EE-0AF7F5D6EF8E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YarpApiGatewayPetsFoundation", "..\YarpApiGatewayPetsFoundation\YarpApiGatewayPetsFoundation.csproj", "{E4D86D01-150B-4553-828F-8B73330D83EB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,8 +23,15 @@ Global
 		{5584385F-5012-41E2-96EE-0AF7F5D6EF8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5584385F-5012-41E2-96EE-0AF7F5D6EF8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5584385F-5012-41E2-96EE-0AF7F5D6EF8E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4D86D01-150B-4553-828F-8B73330D83EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4D86D01-150B-4553-828F-8B73330D83EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4D86D01-150B-4553-828F-8B73330D83EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4D86D01-150B-4553-828F-8B73330D83EB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2EDC220F-426C-4313-BD52-6866D3290A4F}
 	EndGlobalSection
 EndGlobal
